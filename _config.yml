@@ -1,0 +1,11 @@
+title: Mo's Site
+email: mustafa.khatib@stud.h-ma.net
+description: Meine erste Jekyll Website
+baseurl: ""
+url: ""
+
+github_username: 01101101-01101111
+linkedin_username: mustafa-khatib-a42945333
+
+plugins:
+  - jekyll-feed

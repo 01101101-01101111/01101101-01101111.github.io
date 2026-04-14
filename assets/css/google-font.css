@@ -1,0 +1,22 @@
+/* Raleway lokal eingebunden */
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/assets/fonts/google/raleway-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/google/raleway-latin.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/google/raleway-latin-ext.woff2') format('woff2');
+}

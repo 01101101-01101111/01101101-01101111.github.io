@@ -1,0 +1,87 @@
+palette:
+  not_been: "#cbd1e5"
+  wish: "#4d6594"
+  been: "#e013da"
+  lived: "#0f081e"
+
+countries:
+  lived:
+    - code: DEU
+      name: Germany
+    - code: USA
+      name: United States
+  been:
+    - code: CAN
+      name: Canada
+    - code: NLD
+      name: Netherlands
+    - code: GBR
+      name: United Kingdom
+    - code: FRA
+      name: France
+    - code: ITA
+      name: Italy
+  wish:
+    - code: MEX
+      name: Mexico
+    - code: CHN
+      name: China
+    - code: HKG
+      name: Hong Kong
+    - code: ISL
+      name: Iceland
+    - code: ESP
+      name: Spain
+    - code: BRA
+      name: Brazil
+    - code: JPN
+      name: Japan
+    - code: KOR
+      name: South Korea
+
+us_states:
+  lived:
+    - code: MA
+      name: Massachusetts
+    - code: TX
+      name: Texas
+  been:
+    - code: RI
+      name: Rhode Island
+    - code: CT
+      name: Connecticut
+    - code: NH
+      name: New Hampshire
+    - code: NV
+      name: Nevada
+    - code: CA
+      name: California
+    - code: FL
+      name: Florida
+    - code: NJ
+      name: New Jersey
+    - code: NY
+      name: New York
+    - code: DC
+      name: District of Columbia
+    - code: PA
+      name: Pennsylvania
+    - code: LA
+      name: Louisiana
+    - code: GA
+      name: Georgia
+    - code: IL
+      name: Illinois
+    - code: WA
+      name: Washington
+    - code: HI
+      name: Hawaii
+    - code: UT
+      name: Utah
+    - code: AZ
+      name: Arizona
+    - code: CO
+      name: Colorado
+    - code: WY
+      name: Wyoming
+  wish: []

@@ -4,34 +4,10 @@
     linear-gradient(180deg, #f7f8fc 0%, #eef1fb 100%);
 }
 
-.travel-hero {
-  padding: 5.5rem 0 3rem;
-  background:
-    linear-gradient(135deg, rgba(15, 8, 30, 0.95), rgba(77, 101, 148, 0.92)),
-    linear-gradient(180deg, #0f081e 0%, #23365f 100%);
-  color: #ffffff;
-}
-
-.travel-hero h1,
-.travel-hero h2,
-.travel-hero h3,
-.travel-hero p {
-  color: #ffffff;
-}
-
-.travel-hero-copy {
-  max-width: 42rem;
-}
-
-.travel-hero-copy p {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
-}
-
 .travel-color-chips {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 0.8rem;
   margin-top: 1.4rem;
 }
@@ -125,23 +101,12 @@
   min-height: 23rem;
 }
 
-.travel-inline-map {
-  min-height: 23rem;
-  width: 100%;
-}
-
-.travel-inline-map svg {
-  display: block;
-  height: auto;
-  width: 100%;
-}
-
-.travel-inline-map--world {
+.travel-map-object--world {
   aspect-ratio: 2 / 1;
 }
 
-.travel-inline-map--us {
-  aspect-ratio: 959 / 593;
+.travel-map-object--us {
+  aspect-ratio: 1.15 / 1;
 }
 
 .travel-status-lists {
@@ -193,45 +158,6 @@
   font-size: 0.92rem;
 }
 
-.travel-hover-card {
-  background: linear-gradient(180deg, #f8f9fd 0%, #eef2fb 100%);
-  border: 1px solid rgba(15, 8, 30, 0.08);
-  border-radius: 16px;
-  padding: 1rem 1.1rem;
-}
-
-.travel-hover-label {
-  color: #6a7390;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  margin-bottom: 0.35rem;
-  text-transform: uppercase;
-}
-
-.travel-hover-name {
-  color: #0f081e;
-  font-size: 1.35rem;
-  font-weight: 700;
-  line-height: 1.25;
-  margin-bottom: 0.45rem;
-}
-
-.travel-hover-meta {
-  align-items: center;
-  color: #56627d;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.travel-hover-dot {
-  background: #cbd1e5;
-  border-radius: 999px;
-  display: inline-block;
-  height: 0.7rem;
-  width: 0.7rem;
-}
-
 @media only screen and (max-width: 900px) {
   .travel-stat-grid,
   .travel-status-lists {
@@ -240,10 +166,6 @@
 }
 
 @media only screen and (max-width: 640px) {
-  .travel-hero {
-    padding-top: 4.5rem;
-  }
-
   .travel-stat-grid,
   .travel-status-lists {
     grid-template-columns: 1fr;
@@ -254,7 +176,7 @@
     min-height: 18rem;
   }
 
-  .travel-inline-map {
+  .travel-map-object {
     min-height: 17rem;
   }
 }

@@ -6,18 +6,18 @@ ff_page: true
 ---
 
 <div id="main" role="main" class="ff-page">
-  <section class="ff-hero">
+  <section class="ff-hero subpage-hero subpage-hero--ff">
     <div class="row">
       <div class="large-12 columns">
-        <div class="ff-hero-copy">
-          <span class="ff-eyebrow">Freiwillige Feuerwehr</span>
-          <h1>FF</h1>
-          <p class="ff-intro">
+        <div class="subpage-hero-copy">
+          <span class="subpage-hero-eyebrow">Freiwillige Feuerwehr</span>
+          <h1 class="subpage-hero-title">FF</h1>
+          <p class="subpage-hero-lead">
             Dieser Bereich ist mein persönlicher Einblick in meine ehrenamtliche Arbeit bei der
             Freiwilligen Feuerwehr. Er zeigt, was mich an diesem Engagement prägt:
             Verantwortung, Gemeinschaft, Ausbildung und die ruhigen Momente hinter dem Dienst.
           </p>
-          <p>
+          <p class="subpage-hero-lead">
             Im Mittelpunkt stehen Eindrücke aus dem Ehrenamt, die öffentlich respektvoll erzählt
             werden können und ein ehrliches Bild dieses Weges vermitteln.
           </p>

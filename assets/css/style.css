@@ -4036,6 +4036,98 @@ p {
 
 /*# sourceMappingURL=style.css.map */
 
+.subpage-hero {
+  color: #fff;
+  overflow: hidden;
+  padding: 6.6rem 0 4.8rem;
+  position: relative;
+  text-align: center;
+}
+
+.subpage-hero::before {
+  background-position: center;
+  background-size: cover;
+  content: "";
+  filter: blur(8px);
+  inset: -24px;
+  position: absolute;
+  transform: scale(1.05);
+}
+
+.subpage-hero::after {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 26%),
+    linear-gradient(180deg, rgba(8, 10, 22, 0.16), rgba(8, 10, 22, 0.08));
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.subpage-hero .row {
+  position: relative;
+  z-index: 1;
+}
+
+.subpage-hero-copy {
+  margin: 0 auto;
+  max-width: 70rem;
+}
+
+.subpage-hero-eyebrow {
+  color: #f2c7ef;
+  display: inline-block;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+}
+
+.subpage-hero-title {
+  color: #fff;
+  font-size: clamp(4.8rem, 12vw, 7.4rem);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 0.94;
+  margin: 0.45rem 0 1.2rem;
+  text-shadow: 0 8px 30px rgba(7, 8, 18, 0.22);
+  text-transform: uppercase;
+}
+
+.subpage-hero-lead {
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 1.22rem;
+  line-height: 1.78;
+  margin: 0 auto 1rem;
+  max-width: 73rem;
+  text-align: left;
+}
+
+.subpage-hero-lead--center {
+  text-align: center;
+}
+
+.subpage-hero--lehre::before {
+  background-image:
+    linear-gradient(135deg, rgba(15, 8, 30, 0.88) 0%, rgba(41, 58, 98, 0.62) 100%),
+    url('/assets/images/lehre-bg.jpg');
+}
+
+.subpage-hero--travel::before {
+  background-image:
+    linear-gradient(135deg, rgba(15, 8, 30, 0.95), rgba(77, 101, 148, 0.92)),
+    linear-gradient(180deg, #0f081e 0%, #23365f 100%);
+  filter: none;
+  inset: 0;
+  transform: none;
+}
+
+.subpage-hero--ff::before {
+  background-image:
+    linear-gradient(115deg, rgba(15, 8, 30, 0.84) 0%, rgba(15, 8, 30, 0.58) 50%, rgba(15, 8, 30, 0.8) 100%),
+    url('/assets/images/ff/ff-hero-group.jpg');
+}
+
 .lehre-bg {
   position: relative;
   overflow: hidden;
@@ -4104,6 +4196,21 @@ p {
   background-position: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .subpage-hero {
+    padding: 5.5rem 0 3.8rem;
+  }
+
+  .subpage-hero-title {
+    font-size: clamp(3.5rem, 15vw, 5.4rem);
+  }
+
+  .subpage-hero-lead {
+    font-size: 1.04rem;
+    max-width: 92%;
+  }
+}
+
 
 .info-hero {
   margin-bottom: 70px;
@@ -4113,4 +4220,3 @@ p {
 #main .row {
   margin-top: 20px;
 }
-

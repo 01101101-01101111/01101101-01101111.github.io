@@ -5,21 +5,20 @@ permalink: /lehre/
 ---
 
 <div id="main" role="main">
- <div class="full parallax lehre-bg" style="color: #fff;">  
+  <section class="subpage-hero subpage-hero--lehre">
     <div class="row">
       <div class="large-12 columns">
-        <div class="mod modSectionHeader big">
-          <div class="special-title centered-text">
-            <h2 style="color: #fff;">Lehre</h2>
-          </div>
-          <h3 class="centered-text" style="color: #fff;">
-            Überblick über zentrale Inhalte meines Studiums im Bereich Cyber Security und Informatik
-          </h3>
+        <div class="subpage-hero-copy">
+          <span class="subpage-hero-eyebrow">Studium &amp; Fachgebiete</span>
+          <h1 class="subpage-hero-title">Lehre</h1>
+          <p class="subpage-hero-lead subpage-hero-lead--center">
+            Überblick über zentrale Inhalte meines Studiums im Bereich Cyber Security und
+            Informatik.
+          </p>
         </div>
       </div>
     </div>
-    <div class="four spacing"></div>
-  </div>
+  </section>
 
   <div class="full">
     <div class="row">

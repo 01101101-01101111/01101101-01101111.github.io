@@ -8,17 +8,18 @@ map_page: true
 <script id="travel-data" type="application/json">{{ site.data.travel | jsonify }}</script>
 
 <div id="main" role="main" class="travel-page">
-  <section class="travel-hero">
+  <section class="travel-hero subpage-hero subpage-hero--travel">
     <div class="row">
       <div class="large-12 columns">
-        <div class="travel-hero-copy">
-          <h1>Been</h1>
-          <p>
+        <div class="subpage-hero-copy">
+          <span class="subpage-hero-eyebrow">Reisearchiv</span>
+          <h1 class="subpage-hero-title">Been</h1>
+          <p class="subpage-hero-lead">
             Dieser Bereich ist mein offenes Reisearchiv. Statt eine geschlossene App zu nutzen,
             halte ich hier sichtbar fest, in welchen Laendern und US-Bundesstaaten ich schon war,
             wo ich gelebt habe und was spaeter noch auf meine Wunschliste kommt.
           </p>
-          <p>
+          <p class="subpage-hero-lead">
             Eine visuelle Sammlung von Aufenthalten, Reisen und Wunschzielen, die mit der Zeit
             weiterwaechst und meine persoenlichen Wege sichtbar macht.
           </p>
